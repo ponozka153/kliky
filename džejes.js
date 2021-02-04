@@ -3,7 +3,7 @@ const ajpí = fetch("http://api.ipify.org/?format=json").then(results => results
 function ano() {
     //ajpí.then(data => alert(data.ip))
 
-    //if(ajpí.then(data => data.ip === "109.108.110.250")){
+    //if(ajpí.then(data => data.ip === "")){
 //ajpí.then(data => localStorage.setItem("key", data.ip))
 //localStorage.setItem("hezů", "hezů")
 //document.getElementsByClassName("bu")[0].innerHTML = localStorage.getItem("key")}
@@ -12,6 +12,7 @@ function ano() {
 
 function ne() {
     Number1 = Math.floor (Math.random() * (10))
+    fetch("file:///C:/Users/micha/OneDrive/Documents/GitHub/kliky/hez%C5%AF.json").then(results => document.getElementsByClassName("bubu")[0].innerHTML = results.json())
     if(Number1 > 1){
     document.getElementsByClassName("nadpis")[0].innerHTML = "Klikyyy"
 }
