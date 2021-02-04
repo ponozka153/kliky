@@ -10,7 +10,7 @@ body{
     width: 300px;
     padding: 25px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0,0,0,0.4);
@@ -42,4 +42,16 @@ body{
 {
     width: 270px;
     border-color: yellow;
+}
+
+.list
+{
+    width: 300px;
+    padding: 25px;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
 }
