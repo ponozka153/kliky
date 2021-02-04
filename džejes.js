@@ -1,7 +1,7 @@
 const ajpí = fetch("http://api.ipify.org/?format=json").then(results => results.json())
 
 function ano() {
-    ajpí.then(data => alert(data.ip))
+    //ajpí.then(data => alert(data.ip))
 
     //if(ajpí.then(data => data.ip === "109.108.110.250")){
 //ajpí.then(data => localStorage.setItem("key", data.ip))
