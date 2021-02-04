@@ -11,5 +11,5 @@ function ne() {
 
 function kliky() {
     Number1 = Math.floor (Math.random() * (50))
-    document.getElementById("list").textContent = Number1 + " kliků"
+    document.getElementById("list").textContent = Number1 + " kliků" 
 }
