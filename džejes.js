@@ -11,7 +11,7 @@ if(minuty < 10){
 if(sekundy < 10){
     sekundy = `0${sekundy}`
 }
-document.getElementsByClassName("čas")[0].innerHTML = `${hodiny}:${minuty}:${sekundy}`
+document.getElementsByClassName("čas")[0].innerHTML = `<b>${hodiny}:${minuty}:${sekundy}</b>`
 }, 750);
 
 
@@ -37,6 +37,15 @@ function ne() {
 
 function kliky() {
     Number1 = Math.floor (Math.random() * (50))
-    document.getElementById("list").textContent = Number1 + " kliků" 
+    if(Number1 === 1){
+    document.getElementById("list").textContent = Number1 + " klik"}
+    if(Number1 === 0){
+        document.getElementById("list").textContent = Number1 + " kliků"}
+    if(Number1 > 1){
+        if(Number1 < 5){
+            document.getElementById("list").textContent = Number1 + " kliky"}
+        }
+    if(Number1 > 4){
+        document.getElementById("list").textContent = Number1 + " kliků"}
     
 }
